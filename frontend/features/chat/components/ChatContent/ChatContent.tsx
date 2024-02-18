@@ -3,7 +3,7 @@ import UserMessage from "../UserMessage/UserMessage";
 
 const ChatContent = () => {
   return (
-    <div className="">
+    <div className="flex flex-col flex-grow">
       <SystemMessage />
       <UserMessage />
     </div>

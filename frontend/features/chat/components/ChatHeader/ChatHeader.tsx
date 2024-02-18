@@ -3,13 +3,11 @@ import Link from "next/link";
 
 const ChatHeader = () => {
   return (
-    <div className="w-full flex content-center justify-center">
-      <div className="w-[768px] flex content-center justify-between px-10 py-3 bg-gradient-to-b from-gray-900 to-gray-600">
-        <h2 className="text-xl text-white">システム</h2>
-        <Link href="/">
+    <div className="sticky top-0 container mx-auto max-w-3xl bg-gray-900 flex justify-between py-3">
+        <h2 className="ml-5 text-xl text-white">システム</h2>
+        <Link href="/" className="mr-5 ">
           <CloseIcon />
         </Link>
-      </div>
     </div>
   );
 };

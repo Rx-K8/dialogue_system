@@ -1,3 +1,4 @@
 import ChatHeader from "./ChatHeader/ChatHeader";
 import ChatContent from "./ChatContent/ChatContent";
-export {ChatHeader, ChatContent};
+import SendUserMessage from "./SendUserMessage/SendUserMessage";
+export {ChatHeader, ChatContent, SendUserMessage};
