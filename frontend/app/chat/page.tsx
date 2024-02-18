@@ -1,12 +1,12 @@
-import React from "react";
 import * as Chat from "@/features/chat/components/index";
 
 const ChatPage = () => {
   return (
-    <div className="relative">
-      <Chat.MessageContent />
-      <Chat.SendMessage />
-    </div>
+    <>
+      <Chat.ChatHeader />
+      <Chat.ChatContent />
+      <div>ユーザの入力</div>
+    </>
   );
 };
 

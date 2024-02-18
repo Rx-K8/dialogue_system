@@ -17,15 +17,16 @@ const SendMessage = () => {
   console.log(errors);
 
   return (
-    <div className="fixed top-11">
+    <div className="w-full fixed bottom-0">
       <form onSubmit={handleSubmit(onSubmit)}>
         <input
           id="message"
           type="text"
           placeholder="話しかける"
           {...register("message", { required: true })}
+          className="w-2/3"
         />
-        <input type="submit" />
+        <input type="submit"  className=""/>
       </form>
     </div>
   );
