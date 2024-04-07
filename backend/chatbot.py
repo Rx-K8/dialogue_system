@@ -7,7 +7,7 @@ from pydantic import BaseModel
 from transformers import (AutoModelForCausalLM, AutoTokenizer,
                           BitsAndBytesConfig)
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+#os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 ### モデル部分 ###
 model_id = "rinna/japanese-gpt-neox-3.6b-instruction-ppo"
