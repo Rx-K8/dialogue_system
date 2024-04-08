@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const url = "http://127.0.0.1:8000/message/";
+const url = "http://127.0.0.1:9001/message/";
 
 export function getSystemMessage(userMessage: string) {
   return new Promise((resolve, reject) => {
