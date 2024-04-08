@@ -52,7 +52,7 @@ def get_chatbot_message(user_input):
 ### API関連 ###
 app = FastAPI()
 
-origins = ["http://localhost:3000"]
+origins = ["*"]
 
 app.add_middleware(
     CORSMiddleware,
