@@ -93,7 +93,7 @@ docker build . -t opencampus/dialogue_system_backend:1.0.0
 バックエンドでは言語モデルをダウンロードするため，コンテナを止めるごとに削除してしまうと，コンテナ作成に時間がかかります．
 次に使うまでに期間があるなら，オプション--rmを使うことをおすすめします．
 ```
-docker run --rm -p 9001:9001 -d opencampus/dialogue_system_backend:1.0.0
+docker run --rm -p 9001:9001 -d --gpus=all opencampus/dialogue_system_backend:1.0.0
 ```
 
 ### iMac(研究室内のホスト)
