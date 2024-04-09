@@ -64,6 +64,13 @@ git clone https://github.com/ke-110/dialogue_system.git
 
 #### step1: フロントエンドのイメージ作成
 クローンしてきたリポジトリ内のfrontendディレクトリに移動します．
+frontendのイメージを作成します．
+- --rm: コンテナを停止すると，コンテナを削除します．
+- -p: コンテナのポート番号とcappuccinoのポート番号を紐づけます(9000:3000は，コンテナ内のポート3000番とcappuccinoのポート番号9000番を紐づけます)
+- -d: バックグラウンド
+```
+docker run --rm -p 9000:3000 -d fk/dialogue_system_front:1.0.0
+```
 
 #### step2: フロントエンドのコンテナ作成
 
