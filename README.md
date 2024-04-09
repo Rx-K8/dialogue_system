@@ -68,7 +68,7 @@ frontendのイメージを作成します．
 オプション
 - -t: イメージに対するタグ付け(必須ではありませんが，つけることを推奨します)
 ```
-docker build . opencampus/dialogue_system_front:1.0.0 -t
+docker build . -t opencampus/dialogue_system_front:1.0.0
 ```
 
 #### step2: フロントエンドのコンテナ作成
@@ -85,7 +85,7 @@ docker run --rm -p 9000:3000 -d opencampus/dialogue_system_front:1.0.0
 次にクローンしてきたリポジトリ内のbackendディレクトリに移動します．
 バックエンドのイメージを作成します．
 ```
-docker build . opencampus/dialogue_system_backend:1.0.0 -t
+docker build . -t opencampus/dialogue_system_backend:1.0.0
 ```
 
 #### step4: バックエンドのコンテナ作成
