@@ -115,4 +115,4 @@ ssh keito_fukuoka@cappuccino -L 9001:localhost:9001
 ```
 
 ## webサイトにアクセスする
-http://localhost:9000にアクセスすることで，試すことができます．
+http://localhost:9000 にアクセスすることで，試すことができます．
