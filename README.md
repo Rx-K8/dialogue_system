@@ -65,18 +65,34 @@ git clone https://github.com/ke-110/dialogue_system.git
 #### step1: フロントエンドのイメージ作成
 クローンしてきたリポジトリ内のfrontendディレクトリに移動します．
 frontendのイメージを作成します．
+オプション
+- -t: イメージに対するタグ付け(必須ではありませんが，つけることを推奨します)
+```
+docker build . opencampus/dialogue_system_front:1.0.0 -t
+```
+
+#### step2: フロントエンドのコンテナ作成
+フロントエンドのコンテナを作成します．
 #### オプション
 - --rm: コンテナを停止すると，コンテナを削除します．
 - -p: コンテナのポート番号とcappuccinoのポート番号を紐づけます(9000:3000は，コンテナ内のポート3000番とcappuccinoのポート番号9000番を紐づけます)
 - -d: バックグラウンドで実行
 ```
-docker run --rm -p 9000:3000 -d fk/dialogue_system_front:1.0.0
+docker run --rm -p 9000:3000 -d opencampus/dialogue_system_front:1.0.0
 ```
 
-#### step2: フロントエンドのコンテナ作成
+#### step3: バックエンドのイメージ作成
+次にクローンしてきたリポジトリ内のbackendディレクトリに移動します．
+バックエンドのイメージを作成します．
+```
+docker build . opencampus/dialogue_system_backend:1.0.0 -t
+```
 
-#### step3: フロントエンドのイメージ作成
-
-#### step3: フロントエンドのコンテナ作成
+#### step3: バックエンドのコンテナ作成
+バックエンドのコンテナを作成します．
+バックエンドでは言語モデルをダウンロードするため，
+```
+docker run --rm -p 9001:9001 -d opencampus/dialogue_system_backend:1.0.0
+```
 
 ### iMac(研究室内のホスト)
