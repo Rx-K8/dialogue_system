@@ -88,9 +88,10 @@ docker run --rm -p 9000:3000 -d opencampus/dialogue_system_front:1.0.0
 docker build . opencampus/dialogue_system_backend:1.0.0 -t
 ```
 
-#### step3: バックエンドのコンテナ作成
+#### step4: バックエンドのコンテナ作成
 バックエンドのコンテナを作成します．
-バックエンドでは言語モデルをダウンロードするため，
+バックエンドでは言語モデルをダウンロードするため，コンテナを止めるごとに削除してしまうと，コンテナ作成に時間がかかります．
+次に使うまでに期間があるなら，オプション--rmを使うことをおすすめします．
 ```
 docker run --rm -p 9001:9001 -d opencampus/dialogue_system_backend:1.0.0
 ```
