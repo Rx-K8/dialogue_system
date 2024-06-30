@@ -103,7 +103,7 @@ docker run --rm -p 9001:9001 -d --gpus device=0 opencampus/dialogue_system_backe
 
 ### フロントエンドとのやり取り
 フロントエンドのコンテナとやり取りをします(公開鍵暗号をしていないとパスワードを求められるかもしれません)．
-コマンドを実行すると，http://localhost:9000にアクセスすると，cappuccino9000番ポートと通信できます．
+コマンドを実行すると，http://localhost:9000 にアクセスすると，cappuccino9000番ポートと通信できます．
 ctrl+dで終了することができます．
 ```
 ssh keito_fukuoka@cappuccino -L 9000:localhost:9000
