@@ -1,6 +1,12 @@
 # キャラクター対話システム
 キャラクターとメッセージのやり取りをすることができます．
 
+## イメージ
+
+![top](site/assets/top.png)
+![messages](site/assets/messages.png)
+
+
 ## ディレクトリ構成
 ```
 .
