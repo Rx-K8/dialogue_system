@@ -55,6 +55,110 @@
 ```
 
 ## 準備
+
+### 画像をダウンロード
+
+IZUMOさんによって提供されているAilisを使わせていただいてます．
+[こちら](https://izumo.com/)からダウンロードし，以下のディレクトリに画像を配置してください．
+ライセンスは各自で確認するようにお願いします．
+
+```
+frontend/public
+├── Ailis-Sticker
+│   ├── Angry.png
+│   ├── Blush.png
+│   ├── Bow.png
+│   ├── Brawny.png
+│   ├── Bye.png
+│   ├── Cantwait.png
+│   ├── Chuckle.png
+│   ├── Congrats.png
+│   ├── Dizzy.png
+│   ├── Done.png
+│   ├── Excited.png
+│   ├── FOMO.png
+│   ├── Goodluck.png
+│   ├── Goodmorning.png
+│   ├── Goodnight.png
+│   ├── HODL.png
+│   ├── Hehe.png
+│   ├── Hehe_ background.png
+│   ├── Hi.png
+│   ├── KAWAII.png
+│   ├── LFG.png
+│   ├── NO.png
+│   ├── NP.png
+│   ├── OK.png
+│   ├── OMG.png
+│   ├── OMG_ background.png
+│   ├── Oopsie.png
+│   ├── Perfect.png
+│   ├── Please.png
+│   ├── Question.png
+│   ├── Scam.png
+│   ├── Smirk.png
+│   ├── Sob.png
+│   ├── Sorry.png
+│   ├── Sorry_background.png
+│   ├── Soul.png
+│   ├── Soul_ background.png
+│   ├── Stare.png
+│   ├── Surprise.png
+│   ├── Sweaty.png
+│   ├── Thankyou.png
+│   ├── Thinking.png
+│   ├── Thumbsup.png
+│   ├── Wen.png
+│   ├── Whale.png
+│   └── Yay.png
+├── Far_view
+│   ├── 001_fullbody.png
+│   ├── 002_fullbody.png
+│   ├── 003_fullbody.png
+│   ├── 004_fullbody.png
+│   ├── 005_fullbody.png
+│   ├── 006_fullbody.png
+│   ├── 007_fullbody.png
+│   ├── 008_fullbody.png
+│   ├── 009_fullbody.png
+│   ├── 010_fullbody.png
+│   ├── 011_fullbody.png
+│   ├── 012_fullbody.png
+│   ├── 013_fullbody.png
+│   ├── 014_fullbody.png
+│   ├── 015_fullbody.png
+│   ├── 016_fullbody.png
+│   ├── 017_fullbody.png
+│   ├── 018_fullbody.png
+│   ├── 019_fullbody.png
+│   ├── 020_fullbody.png
+│   ├── 021_fullbody.png
+│   ├── 022_fullbody.png
+│   ├── 023_fullbody.png
+│   ├── 024_fullbody.png
+│   ├── 025_fullbody.png
+│   ├── 026_fullbody.png
+│   ├── 027_fullbody.png
+│   ├── 028_fullbody.png
+│   ├── 029_fullbody.png
+│   ├── 030_fullbody.png
+│   ├── 031_fullbody.png
+│   ├── 032_fullbody.png
+│   ├── 033_fullbody.png
+│   ├── 034_fullbody.png
+│   ├── 035_fullbody.png
+│   ├── 036_fullbody.png
+│   ├── 037_fullbody.png
+│   ├── 038_fullbody.png
+│   ├── 039_fullbody.png
+│   ├── 040_fullbody.png
+│   ├── 041_fullbody.png
+│   ├── 042_fullbody.png
+│   ├── 043_fullbody.png
+│   └── 044_fullbody.png
+└── ailis-icon.png
+```
+
 ### 計算機サーバー
 今回はcappuccinoを例に説明をします．
 cappuccinoのサーバー内でこのリポジトリをクローンします．
